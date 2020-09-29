@@ -4,13 +4,13 @@ This script to collect images from a given directory and move them to a given di
 
 ### @params:
 
-1. from: this is the start directory.
-2. out: the output directory.
-3. depth: the searching for images depth level.
+1. f: this is the start searching directory.
+2. o: the output directory.
+3. d: the searching for images depth level.
 
 
 ### Example:
 ```
-./collect-images.sh -from=~/Downloads -out=~/Downloads/new-images -depth=1
+./collect-images.sh -f ~/Downloads -o ~/Downloads/new-images -d 1
 ```
 
